@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paiges-pred-api
+  labels:
+    app: paiges-pred-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: paiges-pred-api
+  template: 
+    metadata:
+      labels: 
+        app: paiges-pred-api
+    spec:
+      containers:
+        - name: paiges-pred-api
+          image: paigesacr.azurecr.io/app1/paiges_pred:2.0.RELEASE
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8194
+          
+---
+# Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: paiges-pred-api-loadbalancer-service
+  labels:
+    app: paiges-pred-api
+spec:
+  type: LoadBalancer #ClusterIP, #NodePort
+  selector:
+    app: paiges-pred-api
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8194
