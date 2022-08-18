@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paiges-extract-api
+  labels:
+    app: paiges-extract-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: paiges-extract-api
+  template: 
+    metadata:
+      labels: 
+        app: paiges-extract-api
+    spec:
+      containers:
+        - name: paiges-extract-api
+          image: paigesacr.azurecr.io/app1/paiges_extract:2.0.RELEASE
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8094
+          resources:
+            limits:
+              cpu: 700m
+            requests:
+              cpu: 400m
+--- 
+# Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: paiges-extract-api-loadbalancer-service
+  labels:
+    app: paiges-extract-api
+spec:
+  type: LoadBalancer #ClusterIP, #NodePort
+  selector:
+    app: paiges-extract-api
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8094

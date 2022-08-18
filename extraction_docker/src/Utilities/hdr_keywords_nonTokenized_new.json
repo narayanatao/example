@@ -1,0 +1,627 @@
+{
+	"lblInvoiceNumber": [
+		"invoice no",
+		"invoice number",
+		"invoice serial number",
+		"bill no",
+		"order number",
+		"tax invoice no",
+		"bill number",
+		"tax invoice cum token number",
+		"invoice id",
+		"inv no",
+		"invoice noand",
+		"gst inv no",
+		"document no",
+		"bill of supply",
+		"credit memo"
+	],
+	"lblInvoiceNumber1": [
+		{
+			"0.9": [
+				"invoice",
+				"inv"
+			],
+			"0.1": [
+				"no",
+				"number",
+				"gst",
+				"eway"
+			]
+		}
+	],
+	"lblInvoicedate": [
+		"invoice date",
+		"bill date",
+		"original bill date",
+		"inv date",
+		"dated",
+		"date of invoice",
+		"date of tax invoice",
+		"date of issue",
+		"issue date",
+		"document date",
+		"invoice dt",
+		"credit memo date"
+	],
+	"lblVendorGSTIN": [
+		"gstinuin",
+		"gstin",
+		"gst no",
+		"gstin number",
+		"gstin no",
+		"vat registration no",
+		"tax id",
+		"companys gst",
+		"gst registration no",
+		"gstin number"
+	],
+	"lblPaymentTerms": [
+		"modeterms of payment",
+		"payment terms",
+		"payment term",
+		"credit terms",
+		"terms of delivery and payment",
+		"terms  conditions",
+		"payment condition",
+		"invoice terms",
+		"modeterms payment",
+		"terms of payment"
+	],
+	"lblVendorEmail": [
+		"email",
+		"email remittance to"
+	],
+	"lblPoNumber": [
+		"po number",
+		"buyers order no",
+		"buyers po no",
+		"buyers po number",
+		"buyer po",
+		"buyer po no",
+		"buyer po number",
+		"po no",
+		"po",
+		"pono",
+		"p o no",
+		"customer po",
+		"po no date",
+		"po no and date",
+		"po number date",
+		"po number and date",
+		"purchase order no date",
+		"purchase order no and date",
+		"purchase order number date",
+		"purchase order number and date",
+		"purchase order",
+		"purchase order no",
+		"order no",
+		"order reference",
+		"order reference number",
+		"order reference no",
+		"order ref number",
+		"order ref no",
+		"customer po number",
+		"customer po no",
+		"cust po number",
+		"custpo",
+		"cust po",
+		"your ref po no",
+		"purchase order number",
+		"po nos",
+		"po no & date",
+		"cust order no",
+		"customer order number",
+		"customer order no",
+		"your order number",
+		"your po reference",
+		"your order",
+		"work order no",
+		"work order#",
+		"work ordernumber",
+		"work order",
+		"work order #",
+		"work order number",
+		"wo no",
+		"wo number",
+		"wono",
+		"w o no",
+		"wo #",
+		"wo",
+		"CTM ref no",
+		"CTM order no"
+	],
+	"lblBillingAddress": [
+		"bill to",
+		"invoice to",
+		"sold to",
+		"billed to",
+		"buyer if other than consignee",
+		"billing address",
+		"bill to party",
+		"bill to address"
+	],
+	"hdr_itemDescription": [
+		"description",
+		"description of goods",
+		"item description",
+		"particulars",
+		"item number  description",
+		"description of services",
+		"item  description",
+		"description of goods and services",
+		"summary of charges",
+		"material description"
+	],
+	"hdr_itemQuantity": [
+		"quantity",
+		"shipped",
+		"ordered",
+		"qty shipped",
+		"qty ordered",
+		"invoice quantity",
+		"order qty",
+		"no of units",
+		"quantity shipped",
+		"delivered quantity"
+	],
+	"hdr_HSNCode": [
+		"hsnsac",
+		"hsn code",
+		"hsnsac code",
+		"sachsn codes",
+		"sac code",
+		"hsn sac",
+		"hsn sac code"
+	],
+	"hdr_unitPrice": [
+		"unit price",
+		"price each",
+		"unit rate",
+		"rate per unit",
+		"priceunit",
+		"net price",
+		"unitprice",
+		"price unit",
+		"rate rs",
+		"rate per item"
+	],
+	"lblSubTotal": [
+		"subtotal",
+		"sub total",
+		"taxable value",
+		"sales amount",
+		"sub total amt",
+		"taxable amount",
+		"itemstotal",
+		"itemsubtotal"
+	],
+	"hdr_UOM": [
+		"per",
+		"uom",
+		"unit measure",
+		"unit measurement"
+	],
+	"lblTotalAmount": [
+		"total amount",
+		"grand total",
+		"balance due",
+		"amount due",
+		"total usd",
+		"invoice total",
+		"total invoice value",
+		"total inr",
+		"total amount due",
+		"total due",
+		"gross amount",
+		"bill total",
+		"you pay this amount",
+		"total order",
+		"balance",
+		"net to pay",
+		"total balance due",
+		"amount payable after roundoff",
+		"amount payable usd ic",
+		"total amount after tax"
+	],
+	"lblTaxAmount": [
+		"sales tax",
+		"total tax amount",
+		"total tax",
+		"tax amount",
+		"total taxes",
+		"total sales tax"
+	],
+	"lblCGSTAmount": [
+		"cgst",
+		"cgst output",
+		"cgst payable",
+		"cgst tax",
+		"cgst amount",
+		"central tax amount",
+		"cgst amt",
+		"output cgst",
+		"cgst %",
+		"add cgst",
+		"central tax",
+		"central gst",
+		"cgst %"
+	],
+	"lblCGSTAmount1": [
+		{
+			"0.9": [
+				"cgst"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value"
+			]
+		},
+		{
+			"0.6": [
+				"central"
+			],
+			"0.3": [
+				"tax"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value"
+			]
+		}
+	],
+	"lblSGSTAmount": [
+		"sgst",
+		"sgst output",
+		"sgst payable",
+		"sgst tax",
+		"sgst amount",
+		"state tax amount",
+		"sgst amt",
+		"output sgst",
+		"sgst %",
+		"sgst %",
+		"add sgst",
+		"state tax",
+		"state gst"
+	],
+	"lblSGSTAmount1": [
+		{
+			"0.9": [
+				"sgst"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value"
+			]
+		},
+		{
+			"0.6": [
+				"state"
+			],
+			"0.3": [
+				"tax"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value"
+			]
+		}
+	],
+	"hdr_itemValue": [
+		"extended price",
+		"ext price",
+		"amount rs",
+		"total price",
+		"extended net price",
+		"line total"
+	],
+	"hdr_IGSTAmount": [
+		"igst",
+		"igst output",
+		"igst tax",
+		"igst amount",
+		"integrated tax amount",
+		"output igst",
+		"igst amount",
+		"integrated tax",
+		"igst %",
+		"igst amt",
+		"igst amount",
+		"integrated gst"
+	],
+	"hdr_CGSTAmount": [
+		"cgst",
+		"central tax amount",
+		"central tax cgst"
+	],
+	"hdr_SGSTAmount": [
+		"sgst",
+		"sgst inr",
+		"state tax amount",
+		"state taxsgst",
+		"sgst amt",
+		"sgst tax amt"
+	],
+	"hdr_taxAmount": [
+		"total tax amount",
+		"tax amount",
+		"sales tax"
+	],
+	"lblShippingAddress": [
+		"ship to",
+		"despatch to",
+		"shipped to",
+		"consignee",
+		"shipping address",
+		"deliver to",
+		"delivery address",
+		"consignee address",
+		"place of supply"
+	],
+	"lblIGSTAmount": [
+		"igst",
+		"igst output",
+		"igst payable",
+		"igst tax",
+		"igst amount",
+		"integrated tax amount",
+		"igst amt",
+		"output igst",
+		"igst %",
+		"igst %",
+		"add igst",
+		"integrated tax",
+		"integrated gst"
+	],
+	"lblIGSTAmount1": [
+		{
+			"0.9": [
+				"igst"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value"
+			]
+		},
+		{
+			"0.6": [
+				"integrated"
+			],
+			"0.3": [
+				"tax"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value"
+			]
+		}
+	],
+	"lblDueDate": [
+		"due date",
+		"pay by date",
+		"invoice due date",
+		"payment due date",
+		"payment due on"
+	],
+	"lblFreightAmount": [
+		"freight terms",
+		"freight charges",
+		"ocean freight",
+		"freight value",
+		"freight  service fees",
+		"freight charge",
+		"freight amount",
+		"transport charges",
+		"transport charge",
+		"transport fees",
+		"transport",
+		"freight outside state"
+	],
+	"lblVendorName": [
+		"name and address of supplier",
+		"supplier name",
+		"beneficiary name"
+	],
+	"hdr_itemCode": [
+		"item number",
+		"item code",
+		"item no  internal part no",
+		"part number",
+		"job number",
+		"product code",
+		"sku",
+		"detail number",
+		"batch no",
+		"docket no",
+		"catalog number"
+	],
+	"lblCurrency": [
+		"currency",
+		"invoice currency",
+		"billing currency",
+		"currency in",
+		"payment in"
+	],
+	"lblDiscountAmount": [
+		"disc %",
+		"discount amount",
+		"less discount",
+		"tariff discount",
+		"discounts other credits  charges",
+		"total disc",
+		"discount rs",
+		"total discount"
+	],
+	"lblDiscountAmount1": [
+		{
+			"0.9": [
+				"discount",
+				"disc"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value"
+			]
+		}
+	],
+	"lblVendorAddress": [
+		"remit to address",
+		"supplier name  address",
+		"name and address of supplier"
+	],
+	"lblVATTotal": [
+		"vat inr",
+		"total vat amount",
+		"total vat on invoice"
+	],
+	"lblInsuranceAmount": [
+		"insurance%",
+		"insurance"
+	],
+	"lblCessAmount": [
+		"cess",
+		"cess amount"
+	],
+	"lblCessAmount1": [
+		{
+			"0.9": [
+				"cess"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value"
+			]
+		}
+	],
+	"lblAddlCessAmount": [
+		"add cess",
+		"addl cess",
+		"addcess",
+		"addlcess",
+		"additional cess",
+		"additionalcess"
+	],
+	"lblCessRate": [
+		"cess%",
+		"cess rate"
+	],
+	"lblTCSAmount": [
+		"tcs",
+		"tcs amount",
+		"tcs%"
+	],
+	"CurrencyCode": [
+		"aud",
+		"zar",
+		"hkd",
+		"cad",
+		"usd",
+		"jpy",
+		"gbp",
+		"inr",
+		"bzr",
+		"cny",
+		"sek",
+		"eur",
+		"nzd",
+		"rupees"
+	],
+	"lblBillingNames": [
+		"bill to",
+		"receiver",
+		"billed to",
+		"sold to",
+		"buyer",
+		"bill to customer",
+		"billing address",
+		"details of receiver"
+	],
+	"companyNameList": [
+		"private limited",
+		"private ltd",
+		"pvt ltd",
+		"india limited",
+		"technologies pvt",
+		"technologies",
+		"enterprise",
+		"holding",
+		"restaurant",
+		"hotel",
+		"beverage",
+		"systems",
+		"solution",
+		"llp",
+		"auto",
+		"accesories",
+		"casting",
+		"logistics",
+		"breweries",
+		"hospital",
+		"pharmacy",
+		"medicals",
+		"agro",
+		"foods",
+		"farms",
+		"reseach"
+	],
+	"lblShippingNames": [
+		"ship to",
+		"consignee",
+		"Shipped",
+		"shipped to",
+		"shipping address",
+		"place of supply",
+		"delivery address",
+		"delivery"
+	],
+	"addressNameList": [
+		"survey",
+		"plot",
+		"door",
+		"street",
+		"block",
+		"cross",
+		"road",
+		"estate",
+		"industrial",
+		"indl",
+		"address",
+		"addr",
+		"building",
+		"opp",
+		"opposite",
+		"village",
+		"godown",
+		"complex",
+		"landmark",
+		"aveneue",
+		"post",
+		"attn",
+		"vegas",
+		"suite",
+		"rd",
+		"bldg",
+		"post",
+		"tower",
+		"floor",
+		"stage",
+		"beach",
+		"box",
+		"blvd",
+		"north",
+		"south",
+		"west",
+		"east",
+		"boulevard",
+		"florence"
+	]
+}

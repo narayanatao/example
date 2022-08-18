@@ -1,0 +1,29 @@
+Config path:  /home/extraction_newfolder/cloudextraction/extraction_docker/src/config.json
+Script Directory: /home/extraction_newfolder/cloudextraction/extraction_docker/src
+Script Directory: /home/extraction_newfolder/cloudextraction/extraction_docker/src
+Label Keywords Path:  /home/extraction_newfolder/cloudextraction/extraction_docker/src/Utilities/hdr_keywords.json
+New Label Keywords Path:  /home/extraction_newfolder/cloudextraction/extraction_docker/src/Utilities/hdr_keywords_nonTokenized.json
+spacy loading
+spacy loaded
+2022-04-18 15:09:00+0000 [-] Log opened.
+2022-04-18 15:09:00+0000 [-] Unhandled error in Deferred:
+2022-04-18 15:09:00+0000 [-] Unhandled Error
+	Traceback (most recent call last):
+	  File "__init__.py", line 41, in <module>
+	    app.run("0.0.0.0", appPort)
+	  File "/home/TAPPUI/venv_tapp3/lib/python3.7/site-packages/klein/_app.py", line 437, in run
+	    endpoint.listen(site)
+	  File "/home/TAPPUI/venv_tapp3/lib/python3.7/site-packages/twisted/internet/endpoints.py", line 495, in listen
+	    interface=self._interface)
+	--- <exception caught here> ---
+	  File "/home/TAPPUI/venv_tapp3/lib/python3.7/site-packages/twisted/internet/defer.py", line 122, in execute
+	    result = callable(*args, **kw)
+	  File "/home/TAPPUI/venv_tapp3/lib/python3.7/site-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+	    p.startListening()
+	  File "/home/TAPPUI/venv_tapp3/lib/python3.7/site-packages/twisted/internet/tcp.py", line 1363, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 0.0.0.0:8094: [Errno 98] Address already in use.
+	
+2022-04-20 09:25:55+0000 [-] Received SIGTERM, shutting down.
+2022-04-20 09:25:55+0000 [-] Main loop terminated.
+:0: UserWarning: You do not have a working installation of the service_identity module: 'No module named 'service_identity''.  Please install it from <https://pypi.python.org/pypi/service_identity> and make sure all of its dependencies are satisfied.  Without the service_identity module, Twisted can perform only rudimentary TLS client hostname verification.  Many valid certificate/hostname mappings may be rejected.

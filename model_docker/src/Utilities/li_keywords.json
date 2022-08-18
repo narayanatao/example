@@ -1,0 +1,734 @@
+{
+	"cat_encoding": {
+		"NER_Spacy": [
+			"CARDINAL",
+			"DATE",
+			"GPE",
+			"MONEY",
+			"NORP",
+			"ORDINAL",
+			"ORG",
+			"PERCENT",
+			"PERSON",
+			"PRODUCT",
+			"QUANTITY",
+			"TIME",
+			"UKWN"
+		]
+	},
+	"neighbWordsVec": [
+		"W1Ab",
+		"W2Ab",
+		"W3Ab",
+		"W4Ab",
+		"W5Ab",
+		"W1Be",
+		"W2Be",
+		"W3Be",
+		"W4Be",
+		"W5Be",
+		"W1Lf",
+		"W2Lf",
+		"W3Lf",
+		"W4Lf",
+		"W5Lf",
+		"W1Rg",
+		"W2Rg",
+		"W3Rg",
+		"W4Rg",
+		"W5Rg"
+	],
+	"neighbWords": [
+		"W1Ab",
+		"W2Ab",
+		"W3Ab",
+		"W4Ab",
+		"W5Ab",
+		"d1Ab",
+		"d2Ab",
+		"d3Ab",
+		"d4Ab",
+		"d5Ab",
+		"W1Be",
+		"W2Be",
+		"W3Be",
+		"W4Be",
+		"W5Be",
+		"d1Be",
+		"d2Be",
+		"d3Be",
+		"d4Be",
+		"d5Be",
+		"W1Lf",
+		"W2Lf",
+		"W3Lf",
+		"W4Lf",
+		"W5Lf",
+		"d1Lf",
+		"d2Lf",
+		"d3Lf",
+		"d4Lf",
+		"d5Lf",
+		"W1Rg",
+		"W2Rg",
+		"W3Rg",
+		"W4Rg",
+		"W5Rg",
+		"d1Rg",
+		"d2Rg",
+		"d3Rg",
+		"d4Rg",
+		"d5Rg",
+		"is1lfAzLn",
+		"is2lfAzLn",
+		"is3lfAzLn",
+		"is4lfAzLn",
+		"is5lfAzLn",
+		"is1rgAzLn",
+		"is2rgAzLn",
+		"is3rgAzLn",
+		"is4rgAzLn",
+		"is5rgAzLn"
+	],
+	"noOfPuncs_list": [
+		"no_of_punctuation",
+		"no_of_colon",
+		"no_of_semicolon",
+		"no_of_hyphen",
+		"no_of_comma",
+		"no_of_period"
+	],
+	"lineInfo": [
+		"lineTop",
+		"topLineLen",
+		"line_top_x1",
+		"line_top_x2",
+		"lineDown",
+		"downLineLen",
+		"line_down_x1",
+		"line_down_x2",
+		"lineLeft",
+		"leftLineLen",
+		"line_left_y1",
+		"line_left_y2",
+		"lineRight",
+		"rightLineLen",
+		"line_right_y1",
+		"line_right_y2"
+	],
+	"po_shapes": [
+		"#dddddddddd",
+		"XXdddddddddd",
+		"Xdddddd",
+		"Xdddddd-dd",
+		"dddddd",
+		"ddddddd",
+		"ddddddddd",
+		"dddddddddd",
+		"dddddddddd-d",
+		"XXdd-ddd"
+	],
+	"pixelThresh": 0.02,
+	"verticalThresh": 0.1,
+	"sideThresh": 0.95,
+	"noNeighbors": 5,
+	"specific": [
+		"fee",
+		"itm",
+		"item",
+		"particulars",
+		"description",
+		"measure",
+		"quantity",
+		"details",
+		"units",
+		"unit",
+		"desc",
+		"measurement",
+		"code",
+		"uom",
+		"particular",
+		"qty",
+		"unit",
+		"product",
+		"detail",
+		"goods",
+		"serial",
+		"slno",
+		"hsn",
+		"hsnvac",
+		"vac",
+		"ordered",
+		"order",
+		"shipped",
+		"metric",
+		"line",
+		"value",
+		"amount",
+		"amt",
+		"total"
+	],
+	"common": [
+		"per",
+		"activity",
+		"service",
+		"product",
+		"services",
+		"svc",
+		"order",
+		"shipped",
+		"line",
+		"value",
+		"amount",
+		"amt",
+		"total",
+		"tax",
+		"vat",
+		"gst",
+		"cgst",
+		"sgst",
+		"igst",
+		"price"
+	],
+	"vendor_specific": [
+		"chassis number",
+		"Batch No",
+		"Batch Number",
+		"rop code",
+		"NOB",
+		"Discount",
+		"MFR",
+		"MRP",
+		"Pack",
+		"Prod.Cod",
+		"Exp",
+		"Sale Bill"
+	],
+	"hdr_values": [
+		"item description",
+		"service description",
+		"particulars",
+		"item code",
+		"item number",
+		"parts description",
+		"part number",
+		"slno",
+		"srno",
+		"serial number",
+		"serial #",
+		"item details",
+		"goods details",
+		"item value",
+		"item amount",
+		"net amount",
+		"extended price",
+		"ext price",
+		"extended net price",
+		"extended netprice",
+		"fee description",
+		"fee details",
+		"service details",
+		"unit rate",
+		"gross wt",
+		"net wt",
+		"gross weight",
+		"net weight",
+		"goods description",
+		"goodsservices",
+		"service total",
+		"service amount",
+		"hsn code",
+		"hsnsac",
+		"sac",
+		"hsn",
+		"unit price",
+		"per price",
+		"unit cost",
+		"unit charge",
+		"cost per unit",
+		"sku",
+		"productdesc",
+		"hsncode",
+		"productcode",
+		"uom",
+		"qty",
+		"quantity",
+		"unitprice",
+		"product description",
+		"product details",
+		"prod code",
+		"product code",
+		"description of goods",
+		"unit of measurement",
+		"item quantity",
+		"shipped quantity",
+		"ordered quantity",
+		"number pkgs",
+		"number packages",
+		"no of packs",
+		"no of bags",
+		"no of bag",
+		"no of pack",
+		"qtyunit",
+		"igst",
+		"sgst",
+		"cgst"
+	],
+	"hdr_amount": [
+		"service total",
+		"service charges",
+		"item total",
+		"vat amount",
+		"tax amount",
+		"tax rate",
+		"gst amount"
+	],
+	"footer_keywords": [
+		"balance due",
+		"bal due",
+		"balance amount",
+		"balance amt",
+		"bal amount",
+		"bal amt",
+		"line total",
+		"amount paid",
+		"amt paid",
+		"paid amount",
+		"paid amt",
+		"terms conditions",
+		"terms delivery payment",
+		"terms delivery",
+		"terms payment",
+		"payment terms",
+		"payment due",
+		"remittance",
+		"bank",
+		"remittance advice",
+		"disclaimer",
+		"sub total",
+		"invoice total",
+		"inv total",
+		"thank you",
+		"sales tax",
+		"tax amount",
+		"tax amt",
+		"taxable amount",
+		"total taxable amount",
+		"total taxable value",
+		"taxable amt",
+		"amount payable",
+		"amt payable",
+		"shipment method",
+		"mode delivery",
+		"due within",
+		"invoice date",
+		"billing date",
+		"bill amount",
+		"bill amt",
+		"bill total",
+		"billing amount",
+		"billing amt",
+		"billing total",
+		"bank information",
+		"bank info",
+		"total",
+		"amount due",
+		"amt due",
+		"bank name",
+		"bank address",
+		"remittance address",
+		"account #",
+		"account number",
+		"acc #",
+		"acc number",
+		"beneficiary",
+		"payments/credits",
+		"payments",
+		"credits",
+		"contact",
+		"contact information",
+		"contact number",
+		"taxable total",
+		"subtotal",
+		"beneficiary account name",
+		"beneficiary account number",
+		"beneficiary acct name",
+		"beneficiary acct",
+		"beneficiary acct #",
+		"beneficiary account",
+		"beneficiary account #",
+		"beneficiary acct number",
+		"payment received",
+		"payment recd",
+		"net amount",
+		"net amt",
+		"net pay",
+		"net balance",
+		"sales amount",
+		"sales amt",
+		"sold amt",
+		"sold amount",
+		"item amount",
+		"item amt",
+		"wire information",
+		"wire transfer",
+		"ship",
+		"order status",
+		"invoice specifications",
+		"delivery",
+		"shipment",
+		"delivery information",
+		"shipment information",
+		"miscellaneous",
+		"misc",
+		"recd",
+		"received",
+		"recd",
+		"received",
+		"footnote",
+		"foot note",
+		"remit",
+		"remittance",
+		"thank you",
+		"received thanks",
+		"recd thanks",
+		"wire/ach",
+		"cheque",
+		"check remit",
+		"basic value",
+		"base value",
+		"basic val",
+		"base val",
+		"invoiced net",
+		"net value",
+		"net amount",
+		"merchandise total",
+		"merchandise amount",
+		"discount",
+		"freight value",
+		"freight charges",
+		"packing charges",
+		"assessible value",
+		"sgst",
+		"cgst",
+		"igst",
+		"output sgst",
+		"output cgst",
+		"out put sgst",
+		"out put cgst",
+		"igst payable",
+		"cgst payable",
+		"sgst payable",
+		"tcs",
+		"hsnsac code wise summary"
+	],
+	"desc_key": [
+		"product description",
+		"item description",
+		"details",
+		"particulars",
+		"service description",
+		"goods description"
+	],
+	"desc_vendor": [
+		"vehicle description",
+		"event",
+		"chassis details"
+	],
+	"code_key": [
+		"item code",
+		"item number",
+		"sku",
+		"product number",
+		"item #",
+		"part number",
+		"ticket no"
+	],
+	"code_vendor": [],
+	"qty_key": [
+		"item quantity",
+		"qty",
+		"qnty",
+		"quantity",
+		"backord",
+		"shipped",
+		"ordered",
+		"received",
+		"no of units",
+		"quant"
+	],
+	"qty_key1": [
+		{
+			"1.0": [
+				"quantity",
+				"qty",
+				"qnty"
+			]
+		},
+		{
+			"0.5": [
+				"no",
+				"number"
+			],
+			"0.5": [
+				"pcs",
+				"units"
+			]
+		}
+	],
+	"qty_vendor": [],
+	"price_key": [
+		"unit price",
+		"price per unit",
+		"cost per unit",
+		"cost price",
+		"rate per unit",
+		"rate/month",
+		"basic fare",
+		"rate/hr",
+		"rate"
+	],
+	"price_key1": [
+		{
+			"0.9": [
+				"rate",
+				"price"
+			],
+			"0.1": [
+				"unit"
+			]
+		}
+	],
+	"price_vendor": [],
+	"val_key": [
+		"item value",
+		"taxable value",
+		"taxable amount",
+		"taxable",
+		"item total",
+		"item amount",
+		"net amt",
+		"net amount",
+		"debit",
+		"amount",
+		"total price",
+		"extended price",
+		"ext price",
+		"extended net price",
+		"extended netprice"
+	],
+	"val_key1": [
+		{
+			"0.9": [
+				"taxable"
+			],
+			"0.1": [
+				"amount",
+				"amt",
+				"value",
+				"val"
+			]
+		},
+		{
+			"0.5": [
+				"total",
+				"net",
+				"item"
+			],
+			"0.5": [
+				"amount",
+				"amt",
+				"value",
+				"val"
+			]
+		}
+	],
+	"discount_key": [
+		"discount rate",
+		"disc rate",
+		"discount perc",
+		"disc perc",
+		"discount %",
+		"disc %",
+		"discount percentage",
+		"disc percentage"
+	],
+	"discount_key1": [
+		{
+			"0.9": [
+				"discount",
+				"disc"
+			],
+			"0.1": [
+				"rate",
+				"perc",
+				"percentage",
+				"%"
+			]
+		}
+	],
+	"val_vendor": [],
+	"tax_key": [
+		"tax",
+		"vat",
+		"gst",
+		"cgst",
+		"sgst",
+		"sales tax",
+		"igst"
+	],
+	"uom_key": [
+		"unit of measurement",
+		"uom"
+	],
+	"uom_key1": [
+		{
+			"0.9": [
+				"measure",
+				"measurement"
+			],
+			"0.1": [
+				"unit"
+			]
+		},
+		{
+			"1.0": [
+				"uom"
+			]
+		}
+	],
+	"uom_val": [
+		"ea",
+		"each",
+		"piece",
+		"pc",
+		"pce",
+		"kg",
+		"kgs",
+		"tonne",
+		"box"
+	],
+	"hsn_key": [
+		"hsn code",
+		"hsn/vac",
+		"hsn/sac",
+		"hsn",
+		"hsn/acs"
+	],
+	"hsn_key1": [
+		{
+			"0.9": [
+				"hsn",
+				"hsn/vac",
+				"hsn/sac",
+				"hsn/acs"
+			],
+			"0.1": [
+				"code",
+				"number",
+				"no."
+			]
+		}
+	],
+	"tax_rate_key": [
+		"tax rate",
+		"tax %",
+		"tax percentage",
+		"tax code"
+	],
+	"tax_rate_key1": [
+		{
+			"0.9": [
+				"tax",
+				"vat"
+			],
+			"0.1": [
+				"%",
+				"percentage",
+				"rate",
+				"code"
+			]
+		}
+	],
+	"cgst": [
+		"cgst",
+		"cgst amount",
+		"central tax",
+		"central tax amount"
+	],
+	"cgst1": [
+		{
+			"0.9": [
+				"cgst"
+			],
+			"0.1": [
+				"amount"
+			]
+		},
+		{
+			"0.6": [
+				"central"
+			],
+			"0.3": [
+				"tax"
+			],
+			"0.1": [
+				"amount"
+			]
+		}
+	],
+	"sgst": [
+		"sgst",
+		"sgst amount",
+		"state tax",
+		"state tax amount"
+	],
+	"sgst1": [
+		{
+			"0.9": [
+				"sgst"
+			],
+			"0.1": [
+				"amount"
+			]
+		},
+		{
+			"0.6": [
+				"state"
+			],
+			"0.3": [
+				"tax"
+			],
+			"0.1": [
+				"amount"
+			]
+		}
+	],
+	"igst": [
+		"igst",
+		"igst amount",
+		"integrated tax",
+		"integrated tax amount"
+	],
+	"igst1": [
+		{
+			"0.9": [
+				"igst"
+			],
+			"0.1": [
+				"amount"
+			]
+		},
+		{
+			"0.6": [
+				"integrated"
+			],
+			"0.3": [
+				"tax"
+			],
+			"0.1": [
+				"amount"
+			]
+		}
+	]
+}
